@@ -1,3 +1,12 @@
+
+
+This project is clone of Entrepreneur.com. And also a mobile friendly. Happy coding to all
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
