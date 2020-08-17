@@ -1,0 +1,474 @@
+.comapanyList-container {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+.container {
+	width: 80%;
+	margin-top: 70px;
+}
+
+.filter-options {
+	width: 100%;
+	display: flex;
+	margin: 0 10px;
+	margin-bottom: 20px;
+}
+.filter-options h4 {
+	margin-right: 35px;
+	font-size: 14px;
+	opacity: .6;
+	font-weight: 400;
+	cursor: pointer;
+}
+.filter-options h4:hover {
+	opacity: 1;
+}
+.small,
+.mid,
+.large {
+	font-weight: bold !important;
+	opacity: 1 !important;
+}
+.filter-options h5 {
+	margin-right: 35px;
+}
+
+.arsmall {
+	position: absolute;
+	width: 100px;
+	text-align: center;
+	margin-left: 170px;
+	transition: .5s;
+}
+.armid {
+	position: absolute;
+	width: 100px;
+	text-align: center;
+	margin-left: 340px;
+	transition: .5s;
+}
+.arlarge {
+	position: absolute;
+	width: 100px;
+	text-align: center;
+	margin-left: 500px;
+	transition: .5s;
+}
+.arrow {
+	position: relative;
+	z-index: -1;
+	transform: translateY(-23px) rotate(-90deg);
+	font-size: 50px !important;
+}
+
+.title-container {
+	width: 100%;
+	height: 55px;
+	display: flex;
+	align-items: center;
+	color: white;
+	background: black;
+	font-size: 14px;
+}
+.title-container h2 {
+	font-size: 16px;
+	font-weight: 400;
+}
+.title-container .company {
+	margin-left: 90px;
+}
+.title-container .location {
+	margin-left: 445px;
+}
+.title-container .sector {
+	margin-left: 250px;
+}
+
+.records {
+	width: 100%;
+	padding: 0;
+}
+.records li:nth-of-type(odd) {
+	background-color: #fafafa;
+}
+.records li:nth-of-type(even) {
+	background-color: #f3f2f8;
+}
+
+.company-details {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+.records li {
+	width: 100% !important;
+	display: flex;
+	height: 100%;
+	flex-direction: column;
+	background: #fff;
+	padding: 1rem 0;
+	list-style: none !important;
+	text-decoration: none;
+	border-bottom: 1px solid #e0e0e0;
+	border-top: 1px solid #e0e0e0;
+}
+
+.dropdown-hider {
+	display: none;
+	width: 80%;
+	transform: translateX(93px);
+}
+.dropdown-container {
+	margin-top: 30px;
+	margin-bottom: 20px;
+	height: 100%;
+	position: relative;
+	display: block;
+	visibility: visible;
+	flex-direction: column;
+	width: 80%;
+	transform: translateX(93px);
+}
+
+.index {
+	margin-left: 30px;
+	margin-right: 50px;
+	font-family: "PT Serif", TimesNewRoman, "Times New Roman", Times, Georgia, serif !important;
+	font-size: 1.56rem;
+	font-style: italic;
+}
+.company-logo {
+	border: 1px solid gainsboro;
+	margin-right: 20px;
+}
+.company-name {
+	width: 220px;
+	font-size: 14px;
+	margin-right: 200px;
+}
+.company-logo img {
+	width: 60px;
+	height: 60px;
+}
+.company-location {
+	width: 200px;
+	display: flex;
+	align-items: center;
+	margin-right: 120px;
+}
+.company-location .flag {
+	width: 18px;
+	height: 18px;
+}
+.location-name {
+	margin-left: 10px;
+}
+.location-name h2 {
+	font-size: 15px;
+	font-weight: 400;
+}
+.company-sector {
+	width: 180px;
+}
+.company-sector h2 {
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.about-container {
+	margin-bottom: 20px;
+}
+
+.fields-name {
+	display: flex;
+}
+.company-description {
+	display: flex;
+}
+
+.company-description .photo img {
+	width: 535px;
+}
+
+.description-container {
+	width: 400px;
+	margin-left: 20px;
+}
+.field-title {
+	width: 150px;
+	font-size: 16px;
+	color: grey;
+	margin-bottom: 5px;
+}
+.field-value {
+	margin-left: 40px;
+	font-size: 16px;
+}
+
+.field-value a {
+	text-decoration: none;
+	color: #1289c4;
+}
+
+.first-field {
+	display: flex;
+}
+
+.first-field img {
+	margin-right: 10px;
+	width: 12px;
+}
+.company-links {
+	display: flex;
+	margin-top: 30px;
+}
+.link-icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.company-links .home {
+	color: #fff !important;
+}
+.home-icon {
+	background: #1289c4;
+}
+.home-icon:hover {
+	box-shadow: 0px 5px 8px 0px #1289c4;
+}
+.facebook-icon {
+	background: #2b6cb0;
+}
+.facebook-icon:hover {
+	box-shadow: 0px 5px 8px 0px #2b6cb0;
+}
+.twitter-icon {
+	background: #1289c4;
+}
+.twitter-icon:hover {
+	box-shadow: 0px 5px 8px 0px #1289c4;
+}
+
+.linkedIn-icon {
+	background: #056392;
+}
+.link-icon:hover {
+	box-shadow: 0px 5px 8px 0px #056392;
+}
+hr {
+	opacity: .5;
+}
+
+@media (max-width: 1025px) {
+	.container {
+		width: 95%;
+	}
+
+	.company-description {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.description-container {
+		margin-top: 10px;
+		width: 100% !important;
+	}
+}
+@media (max-width: 769px) {
+	.index {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 5%;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.company-logo {
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+		width: 8.1%;
+		margin-right: 5px;
+	}
+
+	.company-name {
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+		width: 30%;
+		margin-right: 0;
+	}
+	.company-location {
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+		width: 30%;
+		margin-right: 0;
+	}
+	.company-sector {
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+		width: 30%;
+	}
+	.title-container {
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+	}
+	.title-container .company {
+		margin-left: 0;
+	}
+	.title-container .location {
+		margin-left: 0;
+	}
+	.title-container .sector {
+		margin-left: 0;
+	}
+
+	.about-container {
+		width: 100%;
+	}
+	.company-description {
+		width: 100%;
+	}
+	.company-description .photo {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.company-description .photo img {
+		width: 60%;
+	}
+
+	.description-container {
+		width: 80%;
+	}
+	.genral-info {
+		width: 100%;
+	}
+	.fields-name {
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	.field-title,
+	.field-value {
+		width: 40%;
+		overflow: scroll;
+	}
+	.company-links {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.link-icon {
+		width: 30px;
+		height: 30px;
+	}
+}
+@media (max-width: 500px) {
+	#black-arrow {
+		display: none !important;
+	}
+
+	.filter-options {
+		overflow: scroll !important;
+	}
+	.filter-options h5 {
+		display: none;
+	}
+	.filter-options h4 {
+		letter-spacing: 1px;
+		width: 100px;
+		font-size: 11px;
+		margin-right: 0;
+	}
+
+	.title-container .location,
+	.title-container .sector {
+		display: none;
+	}
+	.title-container .company {
+		width: 50%;
+		font-size: 20px;
+	}
+
+	.company-details .company-location,
+	.company-sector {
+		display: none;
+	}
+
+	.index {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 20%;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.company-logo {
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+		width: 20.5%;
+		margin-right: 5px;
+	}
+	.company-description {
+		width: 90%;
+	}
+	.company-name {
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+		width: 50%;
+		font-size: 13px;
+		margin-left: 10%;
+	}
+	.dropdown-container {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		transform: translateX(0px);
+	}
+	.about-container {
+		width: 90%;
+	}
+	.company-description .photo img {
+		width: 90%;
+	}
+
+	.genral-info {
+		width: 90%;
+	}
+
+	.fields-name {
+		display: flex;
+		justify-content: flex-start;
+	}
+	.field-title {
+		width: 25%;
+	}
+	.field-value {
+		flex: 1;
+		margin-left: 10%;
+	}
+	.field-value a {
+		overflow: scroll;
+	}
+	.company-links {
+		justify-content: flex-start;
+	}
+}
