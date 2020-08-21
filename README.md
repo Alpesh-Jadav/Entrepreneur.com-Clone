@@ -1,6 +1,37 @@
 
 
-This project is clone of Entrepreneur.com. And also a mobile friendly. Happy coding to all
+This project is a clone of popular news plateform  Entrepreneur.com.
+
+In this project following are used:
+
+=> material ui 
+=> Reactjs
+=> HTML
+=> CSS
+=> XML
+=> React Hooks
+
+Many places image links of original web are used.
+
+additional dependencies *
+
+"@material-ui/core": "^4.11.0",
+"@material-ui/icons": "^4.9.1",
+
+you can lern how make web mobile friendly.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
