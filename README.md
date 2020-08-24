@@ -4,12 +4,13 @@ This project is a clone of popular news plateform  Entrepreneur.com.
 
 In this project following are used:
 
-=> material ui 
-=> Reactjs
-=> HTML
-=> CSS
-=> XML
-=> React Hooks
+=> material ui <br/>
+=> Reactjs <br />
+=> HTML <br />
+=> CSS <br />
+=> XML <br />
+=> React Hooks <br />
+ 7] mobile friendly design
 
 Many places image links of original web are used.
 
