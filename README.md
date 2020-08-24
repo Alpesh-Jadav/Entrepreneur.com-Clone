@@ -10,7 +10,22 @@ In this project following are used:
 => CSS <br />
 => XML <br />
 => React Hooks <br />
- 7] mobile friendly design
+
+<br />
+<br />
+
+This project has many lerning content for bigginers in react web development . what you lern in it:
+
+1] react components
+
+2] mobile friendly design
+
+3] material-ui
+
+4] components management
+
+<br />
+<br />
 
 Many places image links of original web are used.
 
